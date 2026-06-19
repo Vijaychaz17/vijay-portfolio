@@ -163,6 +163,44 @@ input,textarea{display:block;width:100%;margin:10px 0;padding:10px}
     box-shadow:0 10px 20px rgba(0,120,212,0.3);
 }
 
+#certifications{
+    padding:80px 10%;
+}
+
+.cert-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.cert-card{
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,0.1);
+
+    border-radius:20px;
+    padding:30px;
+
+    text-align:center;
+
+    transition:all .3s ease;
+}
+
+.cert-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,120,212,0.25);
+}
+
+.cert-icon{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.cert-card h3{
+    color:#4db8ff;
+    margin-bottom:10px;
+}
 .cert-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
