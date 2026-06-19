@@ -162,9 +162,6 @@ input,textarea{display:block;width:100%;margin:10px 0;padding:10px}
     transform:translateY(-3px);
     box-shadow:0 10px 20px rgba(0,120,212,0.3);
 }
-#certifications{
-    padding:80px 10%;
-}
 
 .cert-grid{
     display:grid;
